@@ -1,0 +1,71 @@
+#timer {
+	display : block;
+	text-align : center;
+	border : 3px solid red;
+	padding : 10px;
+	margin : auto;
+	Float : right;
+	background-color : blue;
+	color : white;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-weight : bold;
+	font-size : 1.3em;
+}
+#question {
+	text-align : center;
+	color : blue;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-weight : bold;
+	font-size : 1.3em;
+}
+#questionnaire {
+	text-align : center;
+	color : blue;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1.3em;
+}	
+.center {
+  margin: auto;
+  width: 25%;
+}
+td {
+	padding : 0px;
+	border : none;
+	margin : auto;
+	width : 0%;
+	text-align : center;
+	vertical-align : middle;
+}
+td > p {
+	color : blue;
+	text-align: left;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1em;
+	padding : 10px;
+	border : none;
+	margin : auto;
+	width : 50%;
+}
+.button {
+	border : 1px solid black;
+	border-radius : 4px;
+	background-color : blue;
+	color : white;
+	margin : 20px 30px;
+	display : inline-block;
+	text-align : center;
+	padding : 10px 10px;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1em;
+}
+p {
+	display : inline-block;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1em;
+	
+}
+#option0p, #option1p, #option2p, #option3p {
+	font-family : "Verdana", "Arial", sans-serif;
+	font-weight : none;
+	font-size : 1em;
+}

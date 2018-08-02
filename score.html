@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>quizApp v1.0 - Score</title>
+		<link rel="stylesheet" href="./main.css" type="text/css">
+		<script type="text/javascript">
+			function score(){
+				document.getElementById("scoreWindow").innerHTML="Your score is : "+localStorage.getItem("score");
+			}
+		</script>
+	</head>
+	<body onload="score()">
+		<br><h1>Score</h1><br>
+		<div id="scoreWindow"></div>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>quizApp v1.0 - Quiz</title>
+		<link rel="stylesheet" href="./quiz.css" type="text/css">
+		<script type="text/javascript" src = "./quizFns.js"></script>
+		<!--script type="text/javascript">
+        window.onload = loadQuiz;
+    </script-->
+	</head>
+	<body onload="loadQuiz()">
+		<div id="timer"></div>
+		<br><div id="question"><br>
+		---question goes here---
+		</div><br>
+		<div id="questionnaire">
+			<input type="radio" name="option" id="option0" checked="checked"><p id="option0p"></p><br>
+			<input type="radio" name="option" id="option1"><p id="option1p"></p><br>
+			<input type="radio" name="option" id="option2"><p id="option2p"></p><br>
+			<input type="radio" name="option" id="option3"><p id="option3p"></p><br><br>
+			<input type="button" id="next" onclick="loadNext()" value="Next" class="button">
+			<input type="button" id="prev" onclick="loadPrev()" value="Prev" class="button">
+			<input type="button" id="submit" onclick="submitQuiz()" value="Submit" class="button">
+		<div id="errormsg">
+				STATUS
+		</div>
+	</body>
+</html>

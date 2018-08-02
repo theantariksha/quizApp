@@ -1,0 +1,68 @@
+body {
+  background-color : white;
+}
+h1 {
+  color : blue;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-weight : bold;
+	margin : auto;
+	width : 50%;
+	text-align : center;
+}
+h2, h3 {
+	color : blue;
+	font-family : "Verdana", "Arial", sans-serif;
+	padding: 10px;
+	margin : auto;
+	width : 50%;
+	text-align : center;
+
+}
+h4 {
+	color : black;
+	font-family : "Verdana", "Arial", sans-serif;
+}
+td{
+
+}
+div {
+	text-align : center;
+}
+ul {
+	display : table;
+	margin : auto auto;
+}
+li {
+	color : blue;
+	text-align : left;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1.3em;
+}
+.center {
+  margin: auto;
+  width: 25%;
+}
+.blueBorder {
+	border: 3px solid blue;
+  padding: 10px;
+}
+.button {
+	border : none;
+	border-radius : 4px;
+	background-color : blue;
+	color : white;
+	margin : 20px auto;
+	display : block;
+	text-align : center;
+	padding : 10px 10px;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1em;
+}
+#scoreWindow {
+	margin : 20px auto;
+	display : block;
+	color : blue;
+	font-family : "Verdana", "Arial", sans-serif;
+	font-size : 1.3em;
+}
+	
