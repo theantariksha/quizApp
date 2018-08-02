@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>quizApp v1.0 - Login</title>
+		<link rel="stylesheet" href="./main.css" type="text/css">
+		<script type="text/javascript" src="./validateLogin.js"></script>
+	</head>
+	<body>
+		<h1>Quiz</h1>
+		<div>
+				<h3>Enter Login Credentials</h3>
+				<!--form action="./home.html" target="_self" onsubmit="return validateLogin()"-->
+				<form action="./home.html" target="_self" onsubmit="return validateLogin()">
+					<table class="center blueBorder">
+						<tr>
+							<td><h4>Username:</h4></td>
+							<td><input type="text" id="username" placeholder="e.g. I351600" autofocus></td>
+						</tr>
+						<tr>
+							<td><h4>Password:</h4></td>
+							<td><input type="password" id="password"></td>
+						</tr>
+					</table>
+					<input type="submit" value="Login" class="button" align="center">
+					<a href="./signUp.html">New user? Sign up here.</a> 
+				</form>
+			</div>
+			<br>
+			<div id="errormsg" class="center" >
+				STATUS
+			</div>
+	</body>
+</html>

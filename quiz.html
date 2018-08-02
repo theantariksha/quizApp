@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>quizApp v1.0 - Quiz</title>
+		<link rel="stylesheet" href="./quiz.css" type="text/css">
+		<script type="text/javascript" src = "./quizFns.js"></script>
+		<!--script type="text/javascript">
+        window.onload = loadQuiz;
+    </script-->
+	</head>
+	<body onload="loadQuiz()">
+		<div id="timer"></div>
+		<br><div id="question"><br>
+		---question goes here---
+		</div><br>
+		<table class="center">
+			<tr>
+				<td><input type="radio" name="option" id="option0" checked="checked"></td>
+				<td><p id="option0p"></p></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="option" id="option1"></td>
+				<td><p id="option1p"></p></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="option" id="option2"></td>
+				<td><p id="option2p"></p></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="option" id="option3"></td>
+				<td><p id="option3p"></p></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="next" onclick="loadNext()" value="Next" class="button"></td>
+				<td><input type="button" id="prev" onclick="loadPrev()" value="Prev" class="button"></td>
+			</tr>
+			<tr>
+				<td><input type="button" id="submit" onclick="submitQuiz()" value="Submit" class="button"></td>
+			</tr>
+		</table>
+		<br>
+		<div id="errormsg">
+				STATUS
+		</div>
+	</body>
+</html>
