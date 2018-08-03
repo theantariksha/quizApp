@@ -111,5 +111,7 @@ function submitQuiz(){
 			score+=10;
 	}
 	localStorage.setItem("score", ""+score);
+	localStorage.setItem("answers", JSON.stringify(answers));
+	localStorage.setItem("order", JSON.stringify(order));
 	window.location="./score.html";
 }
