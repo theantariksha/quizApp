@@ -1,2 +1,3 @@
-# quizApp v1.0
+# quizApp v1.2
 HTML/CSS/JAVASCRIPT
+Run index.html
